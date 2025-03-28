@@ -1,6 +1,3 @@
-#ifndef HOLOD_H
-#define HOLOD_H
-
 #include <string>
 #include <iostream>
 
@@ -24,4 +21,4 @@ void editProduct(Product* products, int count);
 void saveFile(Product* products, int count);
 void loadFile(Product*& products, int& count);
 
-#endif
+
